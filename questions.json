@@ -1,0 +1,202 @@
+{
+  "Web Dev": [
+    {
+      "id": 1,
+      "question": "Why is storing JWT tokens in localStorage considered less secure than using HTTP-only cookies?",
+      "options": {
+        "A": "localStorage is slower",
+        "B": "localStorage is vulnerable to XSS attacks",
+        "C": "Cookies increase bandwidth",
+        "D": "JWTs don’t work in localStorage"
+      },
+      "answer": "B",
+      "state": "used"
+    },
+    {
+      "id": 2,
+      "question": "What issue can occur if you don’t properly handle asynchronous errors in Node.js?",
+      "options": {
+        "A": "CSS breaks",
+        "B": "Silent promise rejections and unstable server behavior",
+        "C": "SQL injection",
+        "D": "Memory becomes encrypted"
+      },
+      "answer": "B",
+      "state": "not_used"
+    },
+    {
+      "id": 3,
+      "question": "Why should input validation be performed on both frontend and backend?",
+      "options": {
+        "A": "To reduce server cost",
+        "B": "Frontend is only for speed",
+        "C": "Frontend can be bypassed by attackers",
+        "D": "Backend validation is optional"
+      },
+      "answer": "C",
+      "state": "not_used"
+    },
+    {
+      "id": 4,
+      "question": "Why can improper useEffect dependencies in React cause infinite re-renders?",
+      "options": {
+        "A": "React recompiles components",
+        "B": "State updates trigger re-renders repeatedly",
+        "C": "JSX loops automatically",
+        "D": "DOM resets entirely"
+      },
+      "answer": "B",
+      "state": "not_used"
+    }
+  ],
+  "Mobile Dev": [
+    {
+      "id": 1,
+      "question": "Why is it risky to store sensitive data (like API keys) directly in a mobile app?",
+      "options": {
+        "A": "It slows rendering",
+        "B": "APK/IPA files can be reverse engineered",
+        "C": "It increases UI lag",
+        "D": "It reduces battery"
+      },
+      "answer": "B",
+      "state": "used"
+    },
+    {
+      "id": 2,
+      "question": "What problem does dependency injection solve in mobile apps?",
+      "options": {
+        "A": "UI rendering",
+        "B": "Tight coupling between components",
+        "C": "Memory leaks",
+        "D": "Layout overflow"
+      },
+      "answer": "B",
+      "state": "not_used"
+    },
+    {
+      "id": 3,
+      "question": "Why is handling app lifecycle events critical?",
+      "options": {
+        "A": "To change themes",
+        "B": "To avoid leaks and unnecessary background resource usage",
+        "C": "To speed up animations",
+        "D": "To increase RAM"
+      },
+      "answer": "B",
+      "state": "not_used"
+    },
+    {
+      "id": 4,
+      "question": "What is a main tradeoff of cross-platform frameworks?",
+      "options": {
+        "A": "No API access",
+        "B": "Possible performance limitations compared to native",
+        "C": "Always insecure",
+        "D": "No memory usage"
+      },
+      "answer": "B",
+      "state": "not_used"
+    }
+  ],
+  "AI": [
+    {
+      "id": 1,
+      "question": "Why does overfitting reduce performance on unseen data?",
+      "options": {
+        "A": "It increases training accuracy",
+        "B": "It memorizes training data instead of generalizing",
+        "C": "It reduces model size",
+        "D": "It simplifies features"
+      },
+      "answer": "B",
+      "state": "in_use"
+    },
+    {
+      "id": 2,
+      "question": "Why is normalization important before training neural networks?",
+      "options": {
+        "A": "It encrypts data",
+        "B": "It ensures stable and faster convergence",
+        "C": "It reduces dataset size",
+        "D": "It removes bias"
+      },
+      "answer": "B",
+      "state": "not_used"
+    },
+    {
+      "id": 3,
+      "question": "What problem does dropout aim to reduce?",
+      "options": {
+        "A": "Vanishing gradients",
+        "B": "Overfitting",
+        "C": "Exploding gradients",
+        "D": "Data imbalance"
+      },
+      "answer": "B",
+      "state": "not_used"
+    },
+    {
+      "id": 4,
+      "question": "Why is class imbalance problematic?",
+      "options": {
+        "A": "It slows GPU training",
+        "B": "Model becomes biased toward majority class",
+        "C": "It removes labels",
+        "D": "It breaks backpropagation"
+      },
+      "answer": "B",
+      "state": "not_used"
+    }
+  ],
+  "Cybersecurity": [
+    {
+      "id": 1,
+      "question": "What is the main goal of a CSRF attack?",
+      "options": {
+        "A": "Steal passwords via brute force",
+        "B": "Trick authenticated users into performing unintended actions",
+        "C": "Inject SQL",
+        "D": "Encrypt server data"
+      },
+      "answer": "B",
+      "state": "not_used"
+    },
+    {
+      "id": 2,
+      "question": "Why is hashing passwords better than encrypting them?",
+      "options": {
+        "A": "Hashing is reversible",
+        "B": "Encryption cannot be decrypted",
+        "C": "Hashing is one-way and prevents recovering original passwords",
+        "D": "Hashing is faster"
+      },
+      "answer": "C",
+      "state": "not_used"
+    },
+    {
+      "id": 3,
+      "question": "What does the principle of least privilege enforce?",
+      "options": {
+        "A": "All users are admins",
+        "B": "Users get minimal access necessary",
+        "C": "Everyone shares credentials",
+        "D": "No authentication required"
+      },
+      "answer": "B",
+      "state": "not_used"
+    },
+    {
+      "id": 4,
+      "question": "Why is HTTPS more secure than HTTP?",
+      "options": {
+        "A": "It loads faster",
+        "B": "It uses TLS to encrypt communication",
+        "C": "It blocks cookies",
+        "D": "It prevents SQL injection"
+      },
+      "answer": "B",
+      "state": "not_used"
+    }
+  ]
+}
